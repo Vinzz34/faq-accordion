@@ -52,12 +52,13 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-html, body {
+html {
   height: 100%;
 }
 
 /* Set core body defaults */
 body {
+  height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1;
 }
@@ -106,7 +107,6 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 body {
-  height: 100vh;
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
   font-weight: var(--fw-normal);

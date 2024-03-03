@@ -22,12 +22,13 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-html,body{
+html{
   height: 100%;
 }
 
 /* Set core body defaults */
 body {
+  height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1;
 }
