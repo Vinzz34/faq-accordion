@@ -1,0 +1,11 @@
+.display-none{
+    display: none;
+}
+
+.padding-top{
+    padding-top: 1.5rem;
+
+    @media screen and (min-width:40em){
+        padding-top: 1.75rem;;
+    }
+}

@@ -1,0 +1,13 @@
+.title{
+    display: flex;
+    gap: var(--gap);
+    margin-bottom: 1.5rem;
+
+    &__svg{
+        width: var(--svg-width);
+    }
+
+    @media screen and (min-width: 40em){
+       margin-bottom: 2.25rem; 
+    }
+}

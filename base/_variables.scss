@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --ff-primary: "Work Sans", sans-serif;
+
+    --fs-400: 0.875rem;
+    --fs-600: 1rem;
+    --fs-900: 1.75rem;
+
+    --fw-normal: 400;
+    --fw-bold: 600;
+    --fw-bolder: 700;
+
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-pink: hsl(275, 100%, 97%);
+    --clr-light-purple: hsl(292, 16%, 49%);
+    --clr-dark-purple: hsl(292, 42%, 14%);
+    --clr-bright-purple: hsl(281, 83%, 54%);
+
+    --clr-text: hsla(292, 42%, 14%,0.5);
+
+    --gap: 1.5rem;
+
+    --bg-image: url('images/background-pattern-mobile.svg');
+
+    --svg-width: 26px;
+
+    @media screen and (min-width: 40em){
+        --fs-400: 1rem;
+        --fs-600: 1.125rem;
+        --fs-900: 3rem;
+        --bg-image: url('images/background-pattern-desktop.svg');
+        --svg-width: 40px;
+    }
+}

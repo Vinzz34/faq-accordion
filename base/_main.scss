@@ -1,0 +1,41 @@
+body{
+    font-family: var(--ff-primary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-normal);
+    color: var(--clr-text);
+    background-image: var(--bg-image); 
+    background-color: var(--clr-light-pink);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    place-content: center;
+}
+
+h1{
+    font-size: var(--fs-900);
+    font-weight: var(--fw-bolder);
+}
+
+h2{
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+    line-height: 1.2;
+}
+
+h1,h2{
+    color: var(--clr-dark-purple);
+}
+
+.main{
+    background-color: var(--clr-white);
+    margin-inline: 1.5rem;
+    padding: 2rem 1.5rem;
+    border-radius: 0.5rem;
+    max-width: 600px;
+    box-shadow: hsla(281, 83%, 54%,0.2) 0px 8px 48px;
+
+    @media screen and (min-width:40em){
+        padding: 3.375rem 2.5rem 2.5rem;
+    }
+}
