@@ -103,7 +103,6 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 body {
-  height: 100%;
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
   font-weight: var(--fw-normal);
@@ -116,9 +115,9 @@ body {
   display: grid;
   place-content: center;
 }
-@media screen and (min-width: 40em) {
+@media screen and (max-width: 40em) {
   body {
-    min-height: 100vh;
+    height: 100%;
   }
 }
 

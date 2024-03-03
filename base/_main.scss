@@ -1,5 +1,4 @@
 body{
-    height: 100%;
     font-family: var(--ff-primary);
     font-size: var(--fs-400);
     font-weight: var(--fw-normal);
@@ -12,8 +11,8 @@ body{
     display: grid;
     place-content: center;
     
-    @media screen and (min-width:40em){
-        min-height: 100vh
+    @media screen and (max-width:40em){
+        height: 100%;
     }
 }
 
